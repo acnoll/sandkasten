@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "Color",
+          "type": "LIST_OF_COLORS"
+        }
+      ],
+      "intent": "MyColorIsIntent"
+    },
+    {
+      "intent": "WhatsMyColorIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
+
+MyColorIsIntent my new medication is {Color}
+WhatsMyColorIntent what's my new medication
+WhatsMyColorIntent what is my new medication
+WhatsMyColorIntent what's my medication
+WhatsMyColorIntent what is my medication
+WhatsMyColorIntent my medication
+WhatsMyColorIntent my new medication
+WhatsMyColorIntent get my new medication
+WhatsMyColorIntent get my medication
+WhatsMyColorIntent give me my new medication
+WhatsMyColorIntent please tell me my new medication
+
+insulin
+tylenol
+glargine
+aspirin
+lispro
+hydrocortisone
+levothyroxine
+ceterizine
+ibuprofen
+triamcinolone
+Tacrolimus
+cyproeptadine
